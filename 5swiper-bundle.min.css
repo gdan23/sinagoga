@@ -675,4 +675,37 @@ button.swiper-pagination-bullet{
 
   
 
+/* Default width for the iframe */
+#iframe {
+  width: 100%;
+}
+
+/* Width for small screens (e.g., mobile) */
+@media (max-width: 767px) and (max-width:) {
+  #myIframe {
+    width: 100%;
+  }
+}
+
+/* Width for medium screens (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1100px) {
+  #myIframe {
+    width: 60%;
+  }
+}
+
+
+@media (min-width: 1100px) and (max-width: 1230px) {
+  #myIframe {
+    width: 80%;
+  }
+}
+
+
+/* Width for large screens (e.g., desktop) */
+@media (min-width: 1230px) and (max-width:1440) {
+  #myIframe {
+    width: 100%;
+  }
+}
 
